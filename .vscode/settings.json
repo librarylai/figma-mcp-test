@@ -6,14 +6,6 @@
         "command": "python",
         "args": ["-m", "mcp_server_time", "--local-timezone=America/Los_Angeles"],
         "env": {}
-      },
-      "filesystem": {
-        "command": "npx",
-        "args": ["-y", "@modelcontextprotocol/server-filesystem", "${workspaceFolder}"]
-      },
-      "Framelink Figma MCP": {
-        "command": "npx",
-        "args": ["-y", "figma-developer-mcp", "--figma-api-key=<YOUR_FIGMA_API_KEY>", "--stdio"]
       }
     }
   }

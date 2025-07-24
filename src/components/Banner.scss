@@ -1,0 +1,134 @@
+.banner {
+  background: #ededed;
+  padding: 64px 0 32px 0;
+  text-align: center;
+  min-height: 960px;
+  position: relative;
+  width: 100%;
+}
+
+.banner__title {
+  font-family: 'Integral CF', sans-serif;
+  font-size: 76px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 48px;
+  line-height: 1em;
+  letter-spacing: 0.01em;
+  padding: 0 20px;
+}
+
+.banner__features {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 64px;
+  z-index: 10;
+  position: relative;
+}
+
+.banner__feature {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 60px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.banner__icon {
+  background: #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.banner__icon svg {
+  width: 19.5px;
+  height: 19.5px;
+}
+
+.banner__feature span {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.42em;
+  white-space: nowrap;
+}
+
+.banner__screenshots {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin-top: 32px;
+}
+
+.banner__screenshot {
+  position: absolute;
+  box-shadow: 0px 40px 80px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.banner__screenshot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.banner__screenshot--left {
+  left: 162px;
+  top: 0;
+  width: 575px;
+  height: 465px;
+  z-index: 3;
+}
+
+.banner__screenshot--right {
+  right: 153px;
+  top: 0;
+  width: 575px;
+  height: 611px;
+  z-index: 3;
+}
+
+.banner__screenshot--center {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 64px;
+  width: 432px;
+  height: 437px;
+  z-index: 5;
+}
+
+.banner__screenshot--side-right {
+  right: 62px;
+  top: 114px;
+  width: 112px;
+  height: 286px;
+  z-index: 2;
+}
+
+.banner__screenshot--side-far-right {
+  right: 20px;
+  top: 192px;
+  width: 95px;
+  height: 174px;
+  z-index: 1;
+}
+
+.banner__screenshot--side-left {
+  left: 67px;
+  top: 167px;
+  width: 95px;
+  height: 124px;
+  z-index: 2;
+}
